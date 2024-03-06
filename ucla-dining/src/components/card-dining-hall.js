@@ -4,7 +4,7 @@ import React from 'react'
 function CardDiningHall(props) {
   return (
     <>
-    <img className="dining-hall-picture" src={props.diningHallImage} alt='dining hall image'></img>
+    <img className="dining-hall-picture" src={props.diningHallImage} alt='dining hall'></img>
     <p className="dining-hall-name">{props.diningHallName}</p>
     </>
     

@@ -1,12 +1,14 @@
 import React from 'react'
 import Logo from "../assets/food-bank.svg";
+import { Link} from 'react-router-dom';
 
 function Header() {
   return (
-    <div className="header">
+    <nav className="header">
         <div className="left-section">
             <img className="logo" src={Logo} alt='Logo' />
-            <div className="header-text">Dining Reviews</div>
+            <Link to ="/" className="header-text">Dining Reviews</Link>
+            
         </div>
         <div className="right-section">
             <div className="review-text"> Write a Review </div>
@@ -14,8 +16,9 @@ function Header() {
             <button className="sign-up"> Sign Up </button>
   </div>
     
-    </div>
+    </nav>
   )
+
 }
 
 export default Header
