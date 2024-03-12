@@ -7,11 +7,11 @@ function Header() {
     <nav className="header">
         <div className="left-section">
             <img className="logo" src={Logo} alt='Logo' />
-            <Link to ="/" className="header-text">Dining Reviews</Link>
+            <Link to ="/home" className="header-text">Dining Reviews</Link>
             
         </div>
         <div className="right-section">
-            <div className="review-text"> Write a Review </div>
+            <Link to ="/review" className="review-text"> Write a Review </Link>
             <button className="log-in"> Log In </button>
             <button className="sign-up"> Sign Up </button>
   </div>
